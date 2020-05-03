@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Coding and Music"
-date:       2020-05-03 23:46:48 +0000
+title:      "Coding and Music Production"
+date:       2020-05-03 19:46:48 -0400
 permalink:  coding_and_music
 ---
 
