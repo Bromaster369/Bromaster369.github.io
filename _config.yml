@@ -1,11 +1,11 @@
 # Site settings
 author: Christian Pardo
-title: Actioning
+title: Brocoding
 header-img: img/home-bg.png
 email: chrispardopersonal@gmail.com
 copyright_name: Christian Pardo
 description: > # this means to ignore newlines until "baseurl:"
-  A balanced habit 
+  The fun world of coding
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Bromaster369
