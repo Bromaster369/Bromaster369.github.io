@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Active Record Associations"
-date:       2021-01-08 19:22:21 +0000
+date:       2021-01-08 14:22:22 -0500
 permalink:  active_record_associations
 ---
 
@@ -62,7 +62,7 @@ This method returns a new object of the associated type. The object will be inst
 
 ```
 
-**The has many Association **
+**The has many Association**
 
 The has many Association is a one-to-many connection with another model. For example, a user has many reports. Let's take a look at some of these has many associations:
 
@@ -76,7 +76,7 @@ This method returns a relation of all of the associated objects. If there are no
 => #<ActiveRecord::Associations::CollectionProxy [#<Report id: 34, content: "I want to report a stray dog", user_id: 24, created_at: "2021-01-08 17:41:56", updated_at: "2021-01-08 17:43:44", location: "123 main st, Queens, NY.">, #<Report id: 35, content: "I want to report a stray cat", user_id: 24, created_at: "2021-01-08 17:41:56", updated_at: "2021-01-08 17:45:09", location: "321 main st, Queens, NY.">, #<Report id: 36, content: nil, user_id: 24, created_at: "2021-01-08 18:17:25", updated_at: "2021-01-08 18:17:25", location: nil>, #<Report id: 37, content: "I want to report a suspicious activity in my schoo...", user_id: 24, created_at: "2021-01-08 18:18:34", updated_at: "2021-01-08 18:18:34", location: nil>, #<Report id: 38, content: "I want to report a suspicious activity in my schoo...", user_id: 24, created_at: "2021-01-08 18:19:58", updated_at: "2021-01-08 18:19:58", location: nil>, #<Report id: 39, content: "I want to report a robery", user_id: 24, created_at: "2021-01-08 18:19:58", updated_at: "2021-01-08 18:19:58", location: nil>, #<Report id: nil, content: nil, user_id: 24, created_at: nil, updated_at: nil, location: nil>, #<Report id: nil, content: nil, user_id: 24, created_at: nil, updated_at: nil, location: nil>, #<Report id: nil, content: nil, user_id: 24, created_at: nil, updated_at: nil, location: nil>, #<Report id: nil, content: "I want to report a stray tiger", user_id: 24, created_at: nil, updated_at: nil, location: nil>, ...]>
 ```
 
-***.collection.build ***
+***.collection.build***
 
 This method returns a single or array of new objects of the associated type. The object/objects will be instantiated from the passed attributes, and the link through their foreign key will be created, but the associated objects will not yet be saved. 
 
